@@ -1,0 +1,47 @@
+git config --global user.name "name"
+Sets the author name for all Git commits on this machine.
+
+git config --global user.email "email"
+Sets the author email linked to Git commits.
+
+mkdir foldername
+Creates a new directory on the system.
+
+cd foldername
+Changes the current working directory.
+
+git init
+Initialises an empty Git repository in the current folder.
+
+git add .
+Stages all modified and new files for the next commit.
+
+git commit -m "message"
+Records staged changes to the repository with a descriptive message.
+
+git checkout -b feature
+Creates a new branch called feature and switches to it.
+
+git checkout master
+Switches back to the master branch.
+
+git merge feature
+Merges the feature branch into the current branch.
+
+git log --oneline
+Displays the commit history in a condensed single-line format.
+
+echo "*.log" > .gitignore
+Creates a .gitignore file to exclude log files from tracking.
+
+git reset --soft HEAD~1
+Undoes the last commit while keeping the file changes staged.
+
+git remote add origin URL
+Links the local repository to a remote GitHub repository.
+
+git branch -M main
+Renames the current branch to main.
+
+git push -u origin main
+Uploads the local repository to GitHub and sets tracking.
